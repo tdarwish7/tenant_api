@@ -29,6 +29,26 @@
       "numberOfRoommates": "2",
       "typeOfLease": "1year",
       "arePetsAllowed": "cats only"
+    },
+    {
+      "id": "0c7bb36b-a2d5-4c71-acb4-1fbd5b8697d6",
+      "location": "Half a mile west from UF",
+      "houseOrApt": "House",
+      "numberOfRooms": "3",
+      "numberOfBathrooms": "2",
+      "numberOfRoommates": "2",
+      "typeOfLease": "1year",
+      "arePetsAllowed": "all pets welcome"
+    },
+    {
+      "id": "284e74d6-beea-4409-8033-8030c4d23eb6",
+      "location": "SW 13st and 10ave",
+      "houseOrApt": "House",
+      "numberOfRooms": "3",
+      "numberOfBathrooms": "2",
+      "numberOfRoommates": "2",
+      "typeOfLease": "month-to-month",
+      "arePetsAllowed": "no pets"
     }
   ]
 }
