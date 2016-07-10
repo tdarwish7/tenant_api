@@ -1,0 +1,31 @@
+{
+  "listings": [
+    {
+      "id": "5c3776c2-71be-4679-8c21-8c654aebfd74",
+      "location": "3 Blocks NorthWest of UF campus",
+      "houseOrApt": "House",
+      "numberOfRooms": "5",
+      "numberOfBathrooms": "3",
+      "typeOfLease": "1year",
+      "arePetsAllowed": false
+    },
+    {
+      "id": "2ac0cee6-7329-4880-af36-7b80fd25ee10",
+      "location": "To the South Side of Oaks Mall",
+      "houseOrApt": "Apt",
+      "numberOfRooms": "3",
+      "numberOfBathrooms": "3",
+      "typeOfLease": "1year",
+      "arePetsAllowed": false
+    },
+    {
+      "id": "bcb65a64-ddb6-4d43-98a0-09a4a93188de",
+      "location": "On NewBerry Rd near the Movie Theatre",
+      "houseOrApt": "House",
+      "numberOfRooms": "6",
+      "numberOfBathrooms": "4",
+      "typeOfLease": "1year",
+      "arePetsAllowed": false
+    }
+  ]
+}
