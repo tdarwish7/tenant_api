@@ -50,7 +50,6 @@ server.post('/listings', function (request, response){
 server.put('/listings/:id', function (request, response){
   var updatedListingInfo = {
     location: request.body.location,
-    houseOrApt: request.body.houseOrApt,
     numberOfRooms: request.body.numberOfRooms,
     numberOfBathrooms: request.body.numberOfBathrooms,
     numberOfRoommates: request.body.numberOfRoommates,
@@ -58,7 +57,7 @@ server.put('/listings/:id', function (request, response){
     arePetsAllowed: request.body.arePetsAllowed
   };
 
-  var updatedListing = db.get('listing')
+  var updatedListing = db.get('listings')
                       .find({id: request.params.id})
                       .assign(updatedListingInfo)
                       .value();
