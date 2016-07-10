@@ -19,6 +19,16 @@
       "numberOfRoommates": "2",
       "typeOfLease": "1year",
       "arePetsAllowed": "not allowed"
+    },
+    {
+      "id": "36cee287-2de8-4583-a271-dec93b6a88d0",
+      "location": "NW 5th ave and 6st",
+      "houseOrApt": "House",
+      "numberOfRooms": "3",
+      "numberOfBathrooms": "1",
+      "numberOfRoommates": "2",
+      "typeOfLease": "1year",
+      "arePetsAllowed": "cats only"
     }
   ]
 }
