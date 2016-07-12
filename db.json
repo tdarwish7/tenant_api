@@ -1,16 +1,6 @@
 {
   "listings": [
     {
-      "id": "7f7be4ae-fd37-4e47-96fb-132073e97037",
-      "location": "On NewBerry Rd near the Movie Theatre",
-      "houseOrApt": "House",
-      "numberOfRooms": "6",
-      "numberOfBathrooms": "4",
-      "numberOfRoommates": "5",
-      "typeOfLease": "1year",
-      "arePetsAllowed": "true"
-    },
-    {
       "id": "932b4bfe-b40b-4453-9a0e-8729aa09e6d6",
       "location": "Near Oaks Mall",
       "houseOrApt": "Apartment",
