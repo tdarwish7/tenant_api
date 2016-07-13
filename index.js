@@ -3,6 +3,7 @@ var server = express();
 var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var uuid = require('uuid');
+var cors = require('cors');
 
 //import my model
 var Listing = require('./models/listing.js')
@@ -15,6 +16,7 @@ var db = lowdb('db.json');
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
+server.use(cors());
 
 server.get('/listings', function (request, response){
   var listings = db.get('listings')
